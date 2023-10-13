@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.23);
+    backdrop-filter: blur(50px);
+}
+
+.header img{
+    position: absolute;
+    width: 13vw;
+    height: 4vw;
+    left: 3vw;
+    top: 0.8vw;
+}
+
+#signup{
+    position: absolute;
+    width: max-content;
+    left: 55vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+}
+
+#store{
+    position: absolute;
+    width: max-content;
+    left: 70vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#contact{
+    position: absolute;
+    width: max-content;
+    left: 83vw;
+    top: 1.5vw;
+    text-decoration: none;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+}
+
+/* OUR GALLERY */
+
+.content p{
+    position: absolute;
+    width: max-content;
+    left: 40vw;
+    top: 9vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+
+    color: #000000;
+}
+
+#img1 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 7.5vw;
+    top: 16.5vw;
+    transition: 1s;
+}
+
+#img1:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor1 p{
+    position: absolute;
+    width: max-content;
+    left: 12vw;
+    top: 30vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor1 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 7vw;
+    top: 33vw;
+}
+
+#img2 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 40vw;
+    top: 16.5vw;
+    transition: 1s;
+}
+
+#img2:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor2 p{
+    position: absolute;
+    width: max-content;
+    left: 43vw;
+    top: 30vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor2 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 39vw;
+    top: 33vw;
+}
+
+#img3 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 73vw;
+    top: 16.5vw;
+    transition: 1s;
+}
+
+#img3:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor3 p{
+    position: absolute;
+    width: max-content;
+    left: 76vw;
+    top: 30vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor3 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 72vw;
+    top: 33vw;
+}
+
+#img4 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 7.5vw;
+    top: 42vw;
+    transition: 1s;
+}
+
+#img4:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor4 p{
+    position: absolute;
+    width: max-content;
+    left: 12vw;
+    top: 56vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor4 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 7vw;
+    top: 59vw;
+}
+
+#img5 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 40vw;
+    top: 42vw;
+    transition: 1s;
+}
+
+#img5:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor5 p{
+    position: absolute;
+    width: max-content;
+    left: 45.5vw;
+    top: 56vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor5 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 39vw;
+    top: 59vw;
+}
+
+#img6 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 74vw;
+    top: 42vw;
+    transition: 1s;
+}
+
+#img6:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor6 p{
+    position: absolute;
+    width: max-content;
+    left: 76vw;
+    top: 56vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor6 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 72vw;
+    top: 59vw;
+}
+
+#img7 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 8.5vw;
+    top: 67.5vw;
+    transition: 1s;
+}
+
+#img7:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor7 p{
+    position: absolute;
+    width: max-content;
+    left: 13vw;
+    top: 82vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor7 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 7vw;
+    top: 85vw;
+}
+
+#img8 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 40vw;
+    top: 67.5vw;
+    transition: 1s;
+}
+
+#img8:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor8 p{
+    position: absolute;
+    width: max-content;
+    left: 43vw;
+    top: 82vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor8 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 39vw;
+    top: 85vw;
+}
+
+#img9 {
+    position: absolute;
+    width: 19vw;
+    height: 13vw;
+    left: 73vw;
+    top: 67.5vw;
+    transition: 1s;
+}
+
+#img9:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.motor9 p{
+    position: absolute;
+    width: max-content;
+    left: 77vw;
+    top: 82vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.motor9 img{
+    position: absolute;
+    width: 22vw;
+    height: 4.5vw;
+    left: 72vw;
+    top: 85vw;
+}
+
+/* FOOTER */
+
+.footer{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    left: 0px;
+    top: 100vw;
+
+    background: #F5F5F5;
+}
+
+.email img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 2vw;
+    top: 1.2vw;
+}
+
+.email p{
+    position: absolute;
+    width: max-content;
+    left: 5.5vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.phone img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 28vw;
+    top: 1.2vw;
+}
+
+.phone p{
+    position: absolute;
+    width: max-content;
+    left: 32vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.youtube img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 72vw;
+    top: 1.2vw;
+}
+
+.instagram img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 78vw;
+    top: 1.2vw;
+}
+
+.twitter img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 84vw;
+    top: 1.2vw;
+}
+
+.facebook img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 90vw;
+    top: 1.2vw;
+}

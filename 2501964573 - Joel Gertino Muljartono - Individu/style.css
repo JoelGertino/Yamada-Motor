@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.23);
+    backdrop-filter: blur(50px);
+}
+
+.header img{
+    position: absolute;
+    width: 13vw;
+    height: 4vw;
+    left: 3vw;
+    top: 0.8vw;
+}
+
+/* .menu a{
+    position: absolute;
+    top: 1.5vw;
+    text-decoration: none;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+
+    color: #000000;
+} */
+
+#signup{
+    position: absolute;
+    width: max-content;
+    left: 55vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+}
+
+#store{
+    position: absolute;
+    width: max-content;
+    left: 70vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#contact{
+    position: absolute;
+    width: max-content;
+    left: 83vw;
+    top: 1.5vw;
+    text-decoration: none;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+}
+
+/* SEARCH */
+.search img{
+    position: absolute;
+    width: 100vw;
+    height: 50vw;
+
+}
+
+.search p{
+    position: absolute;
+    width: max-content;
+    left: 4vw;
+    top: 10vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+
+    color: #000000;
+}
+
+#findbike{
+    position: absolute;
+    width: max-content;
+    left: 4vw;
+    top: 33.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+
+    color: #FFFFFF;
+}
+
+#boxnya{
+    position: absolute;
+    width: 27vw;
+    height: 4.5vw;
+    left: 4vw;
+    top: 38vw;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+}
+
+::placeholder{
+    position: absolute;
+    font-size: 1vw;
+    padding: 2vw;
+
+}
+
+.search a img{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 27vw;
+    top: 39vw;
+
+}
+/* NEW RELEASES */
+
+.new-releases{
+    display: inline-block;
+    position: absolute;
+}
+
+.new-releases p{
+    position: absolute;
+    width: max-content;
+    left: 40vw;
+    top: 60vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+    color: #000000;
+}
+
+#sport870 img{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    left: 5vw;
+    top: 70vw;
+    transition: 1s;
+}
+
+#sport870 img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#sport870 p{
+    position: absolute;
+    width: max-content;
+    left: 8vw;
+    top: 93vw;
+    
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.195em;
+    
+    color: #000000;
+}
+
+
+#chillg8c img{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    left: 35vw;
+    top: 70vw;
+    transition: 1s;
+}
+
+#chillg8c img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#chillg8c p{
+    position: absolute;
+    width: max-content;
+    left: 40vw;
+    top: 93vw;
+    
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.195em;
+    
+    color: #000000;
+}
+
+#lowv9 img{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    left: 65vw;
+    top: 70vw;
+    transition: 1s;
+}
+
+#lowv9 img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#lowv9 p{
+    position: absolute;
+    width: max-content;
+    left: 70vw;
+    top: 93vw;
+    
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.195em;
+    
+    color: #000000;
+}
+/* NEWS */
+.news p{
+    position: absolute;
+    width: max-content;
+    left: 45vw;
+    top: 106vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+    color: #000000;
+}
+
+#kotak1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30vw;
+    height: 43vw;
+    left: 4vw;
+    top: 114vw;
+    
+}
+.box1 img{   
+    position: absolute;
+    width: 25vw;
+    height: 17vw;
+    left: 5vw;
+    top: 115vw;
+}
+
+.box1 p{
+    position: absolute;
+    width: 25vw;
+    left: 6vw;
+    top: 135vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#kotak2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30vw;
+    height: 43vw;
+    left: 35vw;
+    top: 114vw;
+    
+}
+
+.box2 img{
+    position: absolute;
+    width: 25vw;
+    height: 17vw;
+    left: 37.5vw;
+    top: 115vw;
+}
+
+.box2 p{
+    position: absolute;
+    width: 25vw;
+    left: 37.5vw;
+    top: 135vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#kotak3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30vw;
+    height: 43vw;
+    left: 66vw;
+    top: 114vw;
+}
+
+.box3 img{
+    position: absolute;
+    width: 25vw;
+    height: 17vw;
+    left: 67vw;
+    top: 115vw;
+}
+
+.box3 p{
+    position: absolute;
+    width: 25vw;
+    left: 68.5vw;
+    top: 135vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    text-align: justify;
+
+    color: #000000;
+}
+/* COPYRIGHT */
+.copyright p{
+    position: absolute;
+    width: 45vw;
+    left: 28vw;
+    top: 163vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    text-align: center;
+
+    color: #000000;
+}
+/* FOOTER */
+.footer{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    left: 0px;
+    top: 173vw;
+
+    background: #F5F5F5;
+}
+
+.email img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 2vw;
+    top: 1.2vw;
+}
+
+.email p{
+    position: absolute;
+    width: max-content;
+    left: 5.5vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.phone img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 28vw;
+    top: 1.2vw;
+}
+
+.phone p{
+    position: absolute;
+    width: max-content;
+    left: 32vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.youtube img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 72vw;
+    top: 1.2vw;
+}
+
+.instagram img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 78vw;
+    top: 1.2vw;
+}
+
+.twitter img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 84vw;
+    top: 1.2vw;
+}
+
+.facebook img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 90vw;
+    top: 1.2vw;
+}

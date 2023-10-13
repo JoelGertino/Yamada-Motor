@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.23);
+    backdrop-filter: blur(50px);
+}
+
+.header img{
+    position: absolute;
+    width: 13vw;
+    height: 4vw;
+    left: 3vw;
+    top: 0.8vw;
+}
+
+#signup{
+    position: absolute;
+    width: max-content;
+    left: 55vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+}
+
+#store{
+    position: absolute;
+    width: max-content;
+    left: 70vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#contact{
+    position: absolute;
+    width: max-content;
+    left: 83vw;
+    top: 1.5vw;
+    text-decoration: none;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+}
+
+#loginlink{
+    position: absolute;
+    width: max-content;
+    left: 59vw;
+    top: 17.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: #000000;
+}
+
+.loginbiru{
+    color: #0099CE;
+}
+
+.box p{
+    position: absolute;
+    width: max-content;
+    left: 15vw;
+    top: 19vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+
+    color: #000000;
+}
+
+.first-name input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24vw;
+    height: 3vw;
+    left: 18vw;
+    top: 24vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1.8vw;
+}
+
+.last-name input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24vw;
+    height: 3vw;
+    left: 18vw;
+    top: 29vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1.8vw;
+}
+
+.number input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24vw;
+    height: 3vw;
+    left: 18vw;
+    top: 34vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1.8vw;
+}
+
+.email input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24vw;
+    height: 3vw;
+    left: 51vw;
+    top: 24vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1.8vw;
+}
+
+.password input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24vw;
+    height: 3vw;
+    left: 51vw;
+    top: 29vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1.8vw;
+}
+
+.gender select{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 15vw;
+    height: 3.5vw;
+    left: 51vw;
+    top: 34vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    text-indent: 1.6vw;
+}
+
+.address textarea{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 57vw;
+    height: 6vw;
+    left: 18vw;
+    top: 40vw;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 2vw;
+    overflow: hidden;
+    resize: none;
+}
+
+::placeholder{
+    color: black;
+    opacity: 70%;
+}
+
+.checkbox label{
+    position: absolute;
+    width: max-content;
+    left: 18vw;
+    top: 49vw;
+    
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    
+    color: #000000;
+}
+
+.checkbox input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    left: 15vw;
+    top: 48.9vw;
+}
+.submit input{
+
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    left: 67vw;
+    top: 49vw;
+
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background: #e8e4e4;
+}
+
+.container{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 67vw;
+    height: 38vw;
+    left: 12.5vw;
+    top: 16.2vw;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 50px 0px;
+    z-index: -1;
+}
+
+.footer{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    left: 0px;
+    top: 60vw;
+
+    background: #F5F5F5;
+}
+
+.email img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 2vw;
+    top: 1.2vw;
+}
+
+.email p{
+    position: absolute;
+    width: max-content;
+    left: 5.5vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.phone img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 28vw;
+    top: 1.2vw;
+}
+
+.phone p{
+    position: absolute;
+    width: max-content;
+    left: 32vw;
+    top: 1.5vw;
+
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+
+    color: #000000;
+}
+
+.youtube img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 72vw;
+    top: 1.2vw;
+}
+
+.instagram img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 78vw;
+    top: 1.2vw;
+}
+
+.twitter img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 84vw;
+    top: 1.2vw;
+}
+
+.facebook img{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 90vw;
+    top: 1.2vw;
+}
